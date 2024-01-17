@@ -1,0 +1,580 @@
+<html>
+<title>Web Development</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="icon" type="image/x-icon" href="css/icons8-www-color-96.png">
+<body>
+
+
+    <style>
+        body {
+            background: linear-gradient(#1cb5e0, #000046);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+    </style>
+
+    <div class="">
+        <img src="css/118.jpg" alt="" style="width: 100%;" height="300px">
+    </div>
+
+    <div class="w3-bar  w3-cursive w3-text-white">
+        <button class="w3-bar-item w3-button w3-large  w3-hover-white w3-padding-16" style="width:10%;font-weight:700;"
+            onclick="openNav('home')">HOME</button>
+        <button class="w3-bar-item w3-button w3-large  w3-hover-white w3-padding-16 " style="width:10%;font-weight:700;"
+            onclick="openNav('explore')">EXPLORE</button>
+        <button class="w3-bar-item w3-button w3-large  w3-hover-white w3-padding-16 " style="width:10%;font-weight:700;"
+            onclick="openNav('about')">ABOUT ME</button>
+        <div class="w3-dropdown-hover w3-right">
+            <button class="w3-button w3-large  w3-hover-white w3-padding-16" style="font-weight:700;">PROGRAMMING
+                LANGUAGE</button>
+            <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <button class="w3-bar-item w3-button" onclick="openNav('html')">HTML </button>
+                <button class="w3-bar-item w3-button" onclick="openNav('css')">CSS </button>
+                <button class="w3-bar-item w3-button" onclick="openNav('javascript')">JAVASSCRIPT </button>
+                <button class="w3-bar-item w3-button" onclick="openNav('php')">PHP</button>
+                <button class="w3-bar-item w3-button" onclick="openNav('sql')">SQL</button>
+            </div>
+        </div>
+    </div>
+    <!--Navigasi Home-->
+    <div id="home" class="w3-container nav w3-cursive w3-animate-fading" style="display:block">
+        <div class=" w3-container w3-margin-top">
+            <div class=" w3-left w3-animate-left ">
+                <img src="css/Coding workshop-rafiki.svg" alt="" height="400" width="600">
+            </div>
+            <div class=" w3-right w3-animate-right" style="width: 50%; ">
+                <h1 class="w3-text-white w3-cursive" style="font-weight: 700;font-size: 45px;">Welcome To Web
+                    Development Site
+                </h1>
+                <p class=" w3-text-white w3-cursive" style="width: 100%;font-size:25px;text-align: justify;">
+                    This website provides information about web development, starting from the definition, types, skills
+                    needed, and the process of web development.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Navigasi Explore-->
+    <div id="explore" class="w3-container nav w3-cursive w3-animate-bottom" style="display:none">
+        <div class="w3-container">
+            <h3 class="w3-text-white w3-xxxlarge w3-animate-opacity w3-cursive"
+                style="font-weight: 700; margin-left: 5%; margin-top: 5%;">Web Development</h3>
+
+            <div class="w3-card-4 w3-light-gray w3-hover-dark-gray w3-round-xlarge w3-animate-left"
+                style="width:40%; float: left; margin-left: 5%;height: 60%;">
+                <div class="w3-container ">
+                    <h1 class="w3-xxlarge w3-cursive" style="font-weight: 700; margin-left: 10%; margin-top: 10%;">
+                        Pengertian</h1>
+                    <p style="margin: 0 10%; font-size: 20px!important;text-align: justify;" class="w3-cursive">Web
+                        Development diambil
+                        dari dua kata utama yaitu web dan development.</p>
+                    <br>
+                    <p style="margin: 0 10%; font-size: 20px!important;text-align: justify;" class="w3-cursive"> Dimana
+                        web merupakan
+                        aplikasi website, halaman,
+                        atau sumber online apapun itu yang memang bisa berfungsi dengan internet. Kemudian development
+                        merupakan membangun sesuatu dari awal.</p>
+
+
+                </div>
+            </div>
+
+
+            <div class="w3-card-4 w3-light-gray w3-hover-dark-gray w3-round-xlarge w3-animate-right"
+                style="width:40%; float: right; margin-right: 5%;height: 60%;margin-top:10%;">
+                <div class="w3-container ">
+                    <h1 class="w3-xxlarge w3-cursive" style="font-weight: 700; margin-left: 10%; margin-top: 10%;">
+                        Jenis-Jenis</h1>
+                    <p style="margin: 0 10%; font-size: 20px!important;text-align: justify;" class="w3-cursive">Web
+                        development juga
+                        mempunyai 3 jenis atau bagian yang saling mendukung. Ketiga jenis ini akan mempunyai jobdesk
+                        yang berbeda namun mempunyai satu tujuan yang sama yaitu menghasilkan website yang bisa
+                        berfungsi dengan baik di internet.
+
+                        Berikut inilah jenis-jenis dari website development antara lain :
+                        <br>
+                        1.Front-End Development
+                        <br>
+
+                        2.Back-End Development
+                        <br>
+                        3.Full-Stack Development
+                    </p>
+                    <br>
+                </div>
+            </div>
+
+            <div class="w3-card-4 w3-light-gray w3-hover-dark-gray w3-round-xlarge w3-animate-left"
+                style="width:40%; float: left; margin-left: 5%;height: 70%; margin-top:10%;">
+                <div class="w3-container ">
+                    <h1 class="w3-xxlarge w3-cursive" style="font-weight: 700; margin-left: 10%; margin-top: 10%;">Skill
+                        Yang
+                        Dibutuhkan</h1>
+                    <p style="margin: 0 10%; font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                        Masing-masing developer web
+                        tentu memiliki skill dan keahliannya masing-masing. Akan tetapi secara umum, berbagai bahasa
+                        pemrograman menjadi hal yang wajib untuk dikuasai. Skill lainnya tentu harus dipahami, namun
+                        kamu masih bisa bekerja sama dengan tim lain.
+                        <br>
+                        1. HTML (Hypertext Markup Language)
+                        <br>
+
+                        2. JavaScript
+                        <br>
+                        3. CSS (Cascading Style Sheets)
+                        <br>
+                        4. PHP (Hypertect Preprocessor)
+                        <br>
+                        5. SQL (Structured Query Language)
+                    </p>
+                    <br>
+
+                </div>
+            </div>
+
+
+            <div class="w3-card-4 w3-light-gray w3-hover-dark-gray w3-round-xlarge w3-animate-right"
+                style="width:40%; float: right; margin-right: 5%;height: 70%;margin-top:10%;">
+                <div class="w3-container ">
+                    <h1 class="w3-xxlarge w3-cursive" style="font-weight: 700; margin-left: 10%; margin-top: 10%;">
+                        Proses</h1>
+                    <p style="margin: 0 10%; font-size: 20px!important;text-align: justify;" class="w3-cursive">Web
+                        Development tentunya
+                        mempunyai proses dalam membuat atau menciptakan sebuah website. Oleh karena itu, Anda perlu
+                        mempelajari tahapan apa saja yang harus dilakukan untuk menghasilkan website yang diinginkan.
+
+                        Inilah langkah-langkah penting dari proses terciptanya sebuah web, yaitu :
+                        <br>
+                        1. Lakukan Perencanaan atau Planning
+                        <br>
+
+                        2. Tahap Perancangan atau Design
+                        <br>
+                        3. Lakukan Implementation atau Coding
+                        <br>
+                        4. Tahap Testing and Deployment
+                        <br>
+                        5. Perhatikan Post Deployment dan Maintenance
+                    </p>
+                    <br>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <!--Navigasi About Me-->
+    <div id="about" class="w3-container nav w3-cursive w3-animate-top" style="display:none">
+        <div class="w3-container ">
+            <div class="w3-card-4 w3-white w3-hover-shadow w3-round-xlarge w3-animate-left"
+                style="width:30%; margin-top:2%;height: 400px;float: left;">
+                <img src="css/pemandangan (1).jpg" alt=""
+                    style="width: 100%; height: 200px; object-fit: cover; border-radius: 16px 16px 0 0;">
+                <div class="w3-display-container w3-container">
+                    <div class="w3-display-middle" style="width: 200px; margin-top: 10%;">
+                        <img src="css/profil.jpg" alt="" width="92%" height="150" class="w3-circle"
+                            style="border: 5px solid white; margin-top: 2%;">
+                        <center>
+                            <p style="font-size: x-large; margin-bottom: 0;"><strong>mfaldifaadhilah</strong></p>
+                            <p style="margin: 0; color: rgb(120, 120, 120);">Full-Stack Developer</p>
+                            <p style="margin: 0 0 5px 0; color: rgb(120, 120, 120);">Bandung, Indonesia</p>
+                        </center>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w3-card-4 w3-white w3-hover-shadow w3-round-xlarge w3-animate-right"
+                style="width:69%; margin-top:2%;height: 400px;float: left;margin-left:1%;">
+
+                <table class="w3-table " style="margin-top: 3%;">
+                    <tr>
+                        <td><strong>Nama Lengkap</strong></td>
+                        <td class="w3-text-gray">Muhammad Faldi Faadhilah</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>NIM</strong></td>
+                        <td class="w3-text-gray">10123266</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Kelas</strong></td>
+                        <td class="w3-text-gray">IF-7</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Alamat</strong></td>
+                        <td class="w3-text-gray">Jl.Sukarasa I No.34, Citeureup, Cimahi Utara, Kota Cimahi</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="w3-card-4 w3-white w3-hover-shadow w3-round-xlarge w3-animate-left"
+                style="width:69%; margin-top:1%;height: 500px;float: left;margin-right:1%;">
+                <h1 style="font-weight: 700;margin-left: 2%;" class="w3-cursive"><img src="css/icon/book.svg" alt=""
+                        width="45" height="45"> PENDIDIKAN</h1>
+                <table class="w3-table " style="margin-top: 3%;">
+                    <tr>
+                        <td><strong>SD</strong></td>
+                        <td class="w3-text-gray">SDN CIMAHI MANDIRI 5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>SMP</strong></td>
+                        <td class="w3-text-gray">SMP NEGERI 5 CIMAHI</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>SMK</strong></td>
+                        <td class="w3-text-gray">SMK NEGERI 2 CIMAHI</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><strong>Perguruan Tinggi</strong></td>
+                        <td class="w3-text-gray">UNIVERSITAS KOMPUTER INDONESIA</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            <div class="w3-card-4 w3-white w3-hover-shadow w3-round-xlarge w3-animate-right"
+                style="width:30%; margin-top:1%;height: 500px;float: left;">
+                <table class="w3-table " style="margin-top: 18%;">
+                    <tr>
+                        <td><img src="css/icon/github.svg" alt=""> GitHub</td>
+                        <td class="w3-text-gray">faldifaadhilah</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="css/icon/instagram.svg" alt=""> Instagram</td>
+                        <td class="w3-text-gray">f.fdhilh</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="css/icon/facebook.svg" alt=""> Facebook</td>
+                        <td class="w3-text-gray">faldifaadhilah</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="css/icon/envelope.svg" alt=""> Email</td>
+                        <td class="w3-text-gray">faldifaadhilah85@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <hr>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div id="html" class="w3-container nav w3-animate-zoom w3-cursive" style="display:none">
+        <div class="w3-container">
+            <center>
+                <div class="w3-card-4 w3-white w3-round-xlarge">
+                    <div class="w3-container ">
+                        <h1 style="font-weight: 700;" class="w3-cursive">HYPER TEXT MARKUP LANGUAGE ( HTML )</h1>
+                        <img src="css/html.png" alt="" width="400" height="400">
+                        <hr>
+                    </div>
+
+                    <div class="w3-container">
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Pengertian</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            HyperText Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang
+                            untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading
+                            Style Sheets (CSS) dan bahasa skrip lainnya seperti JavaScript, VBScript, dan PHP.
+
+                            Peramban internet menerima dokumen HTML dari server web atau dari penyimpanan lokal dan
+                            membuat dokumen menjadi halaman web multimedia. HTML menggambarkan struktur halaman web
+                            secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen.
+
+                            Elemen HTML digambarkan oleh tag, ditulis menggunakan tanda kurung siku.
+
+                            HTML dapat menyematkan program yang ditulis dalam bahasa skrip seperti JavaScript, yang
+                            memengaruhi perilaku dan konten halaman web. Dimasukkannya CSS mendefinisikan tampilan dan
+                            tata letak konten. World Wide Web Consortium (W3C), mantan pengelola HTML dan pemelihara
+                            standar CSS saat ini, telah mendorong penggunaan CSS pada HTML presentasi eksplisit sejak
+                            1997.
+                        </p>
+                        <br>
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Sejarah</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Pada tahun 1980 seorang ahli fisika, Tim Berners-Lee, dan juga seorang kontraktor di CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk ilmuwan CERN dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mengusulkan adanya sistem markah berbasis internet. Berners-Lee menspesifikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, Berners-Lee dan Robert Cailliau, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN. Di catatan pribadinya sejak 1990 dia mendaftar "beberapa dari banyak daerah yang menggunakan hypertext" dan pertama-tama menempatkan sebuah ensiklopedia.
+
+                            Penjelasan pertama yang dibagi untuk umum dari HTML adalah sebuah dokumen yang disebut "Tanda HTML", pertama kali disebutkan di Internet oleh Tim Berners-Lee pada akhir 1991. Tanda ini menggambarkan 18 elemen awal mula, versi sederhana dari HTML. Kecuali untuk tag hyperlink, yang sangat dipengaruhi oleh SGMLguid, in-house Standard Generalized Markup Language (SGML) berbasis format dokumen di CERN. Sebelas elemen ini masih ada di HTML 4.
+                        </p>   
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            HTML adalah bahasa markah yang digunakan peramban untuk menafsirkan dan menulis teks, gambar dan bahan lainnya ke dalam halaman web secara visual maupun suara. Karakteristik dasar untuk setiap item dari markah HTML didefinisikan di dalam peramban, dan karakteristik ini dapat diubah atau ditingkatkan dengan menggunakan tambahan halaman web desainer CSS. Banyak elemen teks ditemukan di laporan teknis ISO pada tahun 1988 TR 9537 Teknik untuk menggunakan SGML, yang pada gilirannya meliputi fitur bahasa format teks awal seperti yang digunakan oleh komandan RUNOFF dikembangkan pada awal 1960-an untuk sistem operasi: perintah-perintah format ini berasal dari perintah yang digunakan oleh pengetik untuk memformat dokumen CTSS secara manual. Namun, konsep SGML dari markah umum didasarkan pada unsur-unsur daripada hanya efek cetak, dengan pemisahan struktur dan markah juga; HTML telah semakin bergerak ke arah ini dengan CSS.
+                        </p>
+
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <div id="css" class="w3-container nav w3-animate-zoom w3-cursive" style="display:none">
+        <div class="w3-container">
+            <center>
+                <div class="w3-card-4 w3-white w3-round-xlarge">
+                    <div class="w3-container ">
+                        <h1 style="font-weight: 700;" class="w3-cursive">CASCADING STYLE SHEET ( CSS )</h1>
+                        <img src="css/css.png" alt="" width="400" height="400">
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Pengertian</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Cascading Style Sheet (CSS) merupakan aturan untuk mengatur beberapa komponen dalam sebuah
+                            web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemrograman.
+
+                            Sama halnya styles dalam aplikasi pengolahan kata seperti Microsoft Word yang dapat mengatur
+                            beberapa style, misalnya heading, subbab, bodytext, footer, images, dan style lainnya untuk
+                            dapat digunakan bersama-sama dalam beberapa berkas (file). Pada umumnya CSS dipakai untuk
+                            memformat tampilan halaman web yang dibuat dengan bahasa HTML dan XHTML.
+
+                            CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran
+                            border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar
+                            teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. CSS adalah bahasa style sheet
+                            yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk
+                            menampilkan halaman yang sama dengan format yang berbeda.
+                        </p>
+                        <br>
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Sejarah</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Nama CSS didapat dari fakta bahwa setiap deklarasi style yang berbeda dapat diletakkan secara berurutan, yang kemudian membentuk hubungan ayah-anak (parent-child) pada setiap style. CSS sendiri merupakan sebuah teknologi internet yang direkomendasikan oleh World Wide Web Consortium atau W3C pada tahun 1996. Setelah CSS distandarisasikan, Internet Explorer dan Netscape melepas browser terbaru mereka yang telah sesuai atau paling tidak hampir mendekati dengan standar CSS.
+
+Untuk saat ini terdapat tiga versi CSS, yaitu CSS1, CSS2, dan CSS3. CSS1 dikembangkan berpusat pada pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS3 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang ketiga diharapkan lebih baik dari versi pertama dan kedua.
+
+CSS3 juga dapat melakukan animasi pada halaman website, di antaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border-image, CSS Math, dan CSS Object Model.
+                        </p>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <div id="javascript" class="w3-container nav w3-animate-zoom w3-cursive" style="display:none">
+        <div class="w3-container">
+            <center>
+                <div class="w3-card-4 w3-white w3-round-xlarge">
+                    <div class="w3-container ">
+                        <h1 style="font-weight: 700;" class="w3-cursive">JAVASCRIPT ( JS )</h1>
+                        <img src="css/js.png" alt="" width="400" height="400">
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Pengertian</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            JavaScript (disingkat JS) adalah suatu bahasa pemrograman tingkat tinggi dan dinamis.
+                            JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer
+                            seperti Google Chrome, Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode
+                            JavaScript dapat disisipkan dalam halaman web menggunakan tag script. JavaScript merupakan
+                            salah satu teknologi inti World Wide Web selain HTML dan CSS. JavaScript membantu membuat
+                            halaman web interaktif dan merupakan bagian aplikasi web yang esensial.
+
+                            Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engine
+                            JavaScript disisipkan ke dalam perangkat lunak lain seperti dalam server-side dalam server
+                            web dan basis data, dalam program non web seperti perangkat lunak pengolah kata dan pembaca
+                            PDF, dan sebagai runtime environment yang memungkinkan penggunaan JavaScript untuk membuat
+                            aplikasi desktop maupun mobile. JavaScript adalah merek dagang yang dikeluarkan dari Oracle
+                            Corporation di Amerika Serikat.
+                        </p>
+                        <br>
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Sejarah</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape di bawah nama Mocha, yang nantinya namanya diganti menjadi LiveScript, dan akhirnya menjadi JavaScript.
+
+Navigator sebelumnya telah mendukung Java untuk lebih bisa dimanfaatkan para pemrogram yang non-Java.Maka dikembangkanlah bahasa pemrograman bernama LiveScript untuk mengakomodasi hal tersebut. Bahasa pemrograman inilah yang akhirnya berkembang dan diberi nama JavaScript, walaupun tidak ada hubungan bahasa antara Java dengan JavaScript.
+
+JavaScript bisa digunakan untuk banyak tujuan, misalnya untuk membuat efek rollover baik di gambar maupun teks, dan yang penting juga adalah untuk membuat AJAX.JavaScript adalah bahasa yang digunakan untuk AJAX.
+                        </p>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <div id="sql" class="w3-container nav w3-animate-zoom w3-cursive" style="display:none">
+        <div class="w3-container">
+            <center>
+                <div class="w3-card-4 w3-white w3-round-xlarge">
+                    <div class="w3-container ">
+                        <h1 style="font-weight: 700;" class="w3-cursive">SQL</h1>
+                        <img src="css/sql.jpg" alt="" width="600" height="400">
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Pengertian</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            SQL ( Structured Query Language ) adalah sebuah bahasa yang digunakan untuk mengakses data
+                            dalam basis data relasional. Bahasa ini secara de facto merupakan bahasa standar yang
+                            digunakan dalam manajemen basis data relasional. Saat ini hampir semua server basis data
+                            yang ada mendukung bahasa ini untuk melakukan manajemen datanya.
+                        </p>
+                        <br>
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Sejarah</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Sejarah SQL dimulai dari artikel seorang peneliti dari IBM bernama Jhonny Oracle yang
+                            membahas tentang ide pembuatan basis data relasional pada bulan Juni 1970. Artikel ini juga
+                            membahas kemungkinan pembuatan bahasa standar untuk mengakses data dalam basis data
+                            tersebut. Bahasa tersebut kemudian diberi nama SEQUEL (Structured English Query Language).
+
+                            Setelah terbitnya artikel tersebut, IBM mengadakan proyek pembuatan basis data relasional
+                            berbasis bahasa SEQUEL. Akan tetapi, karena permasalahan hukum mengenai penamaan SEQUEL, IBM
+                            pun mengubahnya menjadi SQL. Implementasi basis data relasional dikenal dengan System/R.
+
+                            Di akhir tahun 1970-an, muncul perusahaan bernama Oracle yang membuat server basis data
+                            populer yang bernama sama dengan nama perusahaannya. Dengan naiknya kepopuleran John Oracle,
+                            maka SQL juga ikut populer sehingga saat ini menjadi standar de facto bahasa dalam manajemen
+                            basis data.
+                        </p>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <div id="php" class="w3-container nav w3-animate-zoom w3-cursive" style="display:none">
+        <div class="w3-container">
+            <center>
+                <div class="w3-card-4 w3-white w3-round-xlarge">
+                    <div class="w3-container ">
+                        <h1 style="font-weight: 700;" class="w3-cursive">HYPERTEXT PROCESSOR ( PHP )</h1>
+                        <img src="css/php.png" alt="" width="600" height="400">
+                        <hr>
+                    </div>
+                    <div class="w3-container">
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Pengertian</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            PHP: Hypertext Preprocessor (sebelumnya disebut Personal Home Pages) atau hanya PHP saja,
+                            adalah bahasa skrip dengan fungsi umum yang terutama digunakan untuk pengembangan web.
+                            Bahasa ini awalnya dibuat oleh seorang pemrogram Denmark-Kanada Rasmus Lerdorf pada tahun
+                            1994. Implementasi referensi PHP sekarang diproduksi oleh The PHP Group. PHP awalnya
+                            merupakan singkatan dari Personal Home Page, tetapi sekarang merupakan singkatan dari
+                            inisialisasi rekursif PHP: Hypertext Preprocessor.
+                        </p>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Kode PHP biasanya diproses di peladen web oleh interpreter PHP yang diimplementasikan
+                            sebagai modul, daemon, atau sebagai Common Gateway Interface (CGI) yang bisa dijalankan. Di
+                            server web, hasil dari kode PHP yang ditafsirkan dan dieksekusi (dapat berupa semua jenis
+                            data, seperti HTML atau data gambar biner) akan membentuk keseluruhan atau sebagian dari
+                            respons HTTP. Berbagai sistem templat web, sistem manajemen konten web, dan kerangka kerja
+                            web ada yang dapat digunakan untuk mengatur atau memfasilitasi pembuatan respons itu. Selain
+                            itu, PHP dapat digunakan untuk banyak tugas pemrograman di luar konteks web, seperti
+                            aplikasi grafis mandiri dan kontrol drone robotik. Kode PHP juga dapat langsung dieksekusi
+                            dari baris perintah.
+                        </p>
+                        <br>
+                        <h1 align="left" class="w3-cursive" style="font-weight: 700">Sejarah</h1>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            PHP pertama kali dikembangkan oleh Rasmus Lerdorf pada tahun 1994. Pada awalnya PHP
+                            merupakan kependekan dari Personal Home Page (Situs personal). Pada waktu itu PHP masih
+                            bernama Form Interpreted (FI), yang wujudnya berupa sekumpulan skrip yang digunakan untuk
+                            mengolah data formulir dari web.
+
+                            Selanjutnya Rasmus merilis kode sumber tersebut untuk umum dan menamakannya PHP/FI. Dengan
+                            perilisan kode sumber ini menjadi sumber terbuka, maka banyak pemrogram yang tertarik untuk
+                            ikut mengembangkan PHP.
+
+                            Pada November, dirilis PHP/FI 2.0. Pada perilisan ini, interpreter PHP sudah
+                            diimplementasikan dalam program C. Dalam rilis ini disertakan juga modul-modul ekstensi yang
+                            meningkatkan kemampuan PHP/FI secara signifikan.
+
+                            Pada tahun 1995, sebuah perusahaan bernama Zend menulis ulang interpreter PHP menjadi lebih
+                            bersih, lebih baik, dan lebih cepat. Kemudian pada Juni 1995, perusahaan tersebut merilis
+                            interpreter baru untuk PHP dan meresmikan rilis tersebut sebagai PHP 3.0 dan singkatan PHP
+                            diubah menjadi akronim berulang PHP: Hypertext Preprocessor.
+                        </p>
+                        <p style="font-size: 20px!important;text-align: justify;" class="w3-cursive">
+                            Pada pertengahan tahun 1999, Zend merilis interpreter PHP baru dan rilis tersebut dikenal
+                            dengan PHP 4.0. PHP 4.0 adalah versi PHP yang paling banyak dipakai pada awal abad ke-21.
+                            Versi ini banyak dipakai disebabkan kemampuannya untuk membangun aplikasi web kompleks
+                            tetapi tetap memiliki kecepatan dan stabilitas yang tinggi.
+
+                            Pada Juni 2004, Zend merilis PHP 5.0. Dalam versi ini, inti dari interpreter PHP mengalami
+                            perubahan besar. Versi ini juga memasukkan model pemrograman berorientasi objek ke dalam PHP
+                            untuk menjawab perkembangan bahasa pemrograman ke arah paradigma berorientasi objek. Peladen
+                            web bawaan ditambahkan pada versi 5.4 untuk mempermudah pengembang menjalankan kode PHP
+                            tanpa menginstal peladen perangkat lunak.
+
+                            Versi terbaru dan stabil dari bahasa pemograman PHP saat ini adalah versi 8.3.
+                        </p>
+                    </div>
+                </div>
+            </center>
+
+        </div>
+    </div>
+
+    <script>
+        function openNav(navigasi) {
+            var i, x;
+            x = document.getElementsByClassName("nav");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(navigasi).style.display = "block";
+
+        }
+    </script>
+</body>
+
+</html
